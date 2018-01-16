@@ -2,7 +2,9 @@
 
 def reverse_string (input) 
   chars = input.split('')
-  new = (" ")
+  p chars
+
+new = (" ")
   i = 4
     chars.length.times do
       new << input[i]

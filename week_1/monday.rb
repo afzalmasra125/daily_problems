@@ -9,7 +9,6 @@ fruits = [
 # p fruits[1]["name"]
 # p fruits[1]["color"]
 
-fruitshash = { }
 fruitshash = fruits.map{|fruit |[fruit["name"], fruit["color"]]}.to_h
 
 p fruitshash
